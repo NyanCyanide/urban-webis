@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  background-color: black;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.rainbow{
+  background: linear-gradient(45deg, #f44336, #e91e63, #9c27b0, #673ab7, #2196f3, #03a9f4, #00bcd4, #009688, #4caf50, #8bc34a, #cddc39, #ffeb3b, #ffc107, #ff9800, #ff5722, #795548);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
