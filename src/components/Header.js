@@ -6,9 +6,9 @@ function Header() {
   return (
     <>
       <MediaQuery query="(max-width: 767px)">
-        <div className="select-none font-mono flex flex-row backdrop-blur-sm fixed w-screen bottom-0 py-1 rounded-t-xl items-center border-t-2 border-slate-700">
+        <div className="z-50 select-none font-mono flex flex-row backdrop-blur-xl fixed w-screen bottom-0 py-1 rounded-t-xl items-center border-t-2 border-slate-700">
           <div className="basis-1/4 text-center rounded-full hover:bg-zinc-800 cursor-pointer ease-linear duration-700">
-            <a href="/home"><svg
+            <a href="#id1"><svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-7 w-7 text-red-700 mx-auto"
               viewBox="0 0 20 20"
@@ -19,7 +19,7 @@ function Header() {
             <span className=" text-white">Home</span></a>
           </div>
           <div className="basis-1/4 text-center rounded-full hover:bg-zinc-800 cursor-pointer ease-linear duration-700 ">
-            <a href="/about"><svg
+            <a href="#id2"><svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-7 w-7 text-cyan-600 mx-auto"
               viewBox="0 0 20 20"
@@ -34,7 +34,7 @@ function Header() {
             <span className="text-white">About</span>
           </div>
           <div className="basis-1/4 text-center rounded-full hover:bg-zinc-800 cursor-pointer ease-linear duration-700">
-            <a href="/library"><svg
+            <a href="#id3"><svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-7 w-7 text-yellow-400 mx-auto "
               fill="none"
@@ -51,7 +51,7 @@ function Header() {
             <span className="text-white">Library</span></a>
           </div>
           <div className="basis-1/4 text-center rounded-full hover:bg-zinc-800 cursor-pointer ease-linear duration-700">
-            <a href="/connect"><svg
+            <a href="#id4"><svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-7 w-7 text-blue-800 mx-auto"
               fill="none"
@@ -70,16 +70,16 @@ function Header() {
         </div>
       </MediaQuery>
       <MediaQuery query="(min-width: 768px)">
-        <div className="flex border-b-2 border-zinc-800 flex-row w-full  backdrop-blur-sm justify-self-center rounded-b-xl">
-          <div className="flex  justify-center basis-2/6 items-center py-2 select-none">
+        <div className="z-50 flex border-b-2 top-0 fixed border-zinc-800 flex-row w-full backdrop-blur-3xl justify-self-center rounded-b-xl">
+          <div className="flex  justify-center basis-2/6 items-center py-2 backdrop-blur-none">
             <img className="w-14 h-14" src={profile} alt="my-pic" />
-            <div className="text-white text-2xl font-bold font-mono">Hari Om Swarup S A</div>
+            <div className="text-white text-2xl font-bold font-mono tracking-tighter"><a href="/">Hari Om Swarup S A</a></div>
           </div>
           <div className="flex justify-end  basis-4/6 items-center mr-5">
-            <div className="cursor-pointer text-white font-mono mx-2 px-5 text-xl ease-linear duration-500 hover:rounded-full hover:bg-red-700 hover:text-black"><a href="/home">Home</a></div>
-            <div className="cursor-pointer text-white font-mono mx-2 px-5 text-xl ease-linear duration-500 hover:rounded-full hover:bg-cyan-600 hover:text-black"><a href="/about">About</a></div>
-            <div className="cursor-pointer text-white font-mono mx-2 px-5 text-xl ease-linear duration-500 hover:rounded-full hover:bg-yellow-400 hover:text-black"><a href="/library">Library</a></div>
-            <div className="cursor-pointer text-white font-mono mx-2 px-5 text-xl ease-linear duration-500 hover:rounded-full hover:bg-blue-800 hover:text-black"><a href="/connect">Connect</a></div>
+            <div className="cursor-pointer text-white font-mono mx-2 px-5 text-xl ease-linear duration-500 hover:rounded-full hover:bg-red-700 hover:text-black"><a href="#id1">Home</a></div>
+            <div className="cursor-pointer text-white font-mono mx-2 px-5 text-xl ease-linear duration-500 hover:rounded-full hover:bg-cyan-600 hover:text-black"><a href="#id2">About</a></div>
+            <div className="cursor-pointer text-white font-mono mx-2 px-5 text-xl ease-linear duration-500 hover:rounded-full hover:bg-yellow-400 hover:text-black"><a href="#id3">Library</a></div>
+            <div className="cursor-pointer text-white font-mono mx-2 px-5 text-xl ease-linear duration-500 hover:rounded-full hover:bg-blue-800 hover:text-black"><a href="#id4">Connect</a></div>
           </div>
         </div>
       </MediaQuery>

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@500&family=Rubik&display=swap');
 
 body {
   background-color: black;
@@ -12,8 +12,40 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
-.rainbow{
-  background: linear-gradient(45deg, #f44336, #e91e63, #9c27b0, #673ab7, #2196f3, #03a9f4, #00bcd4, #009688, #4caf50, #8bc34a, #cddc39, #ffeb3b, #ffc107, #ff9800, #ff5722, #795548);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  border: 2px solid rgba(255, 255, 255, 0.153);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(194, 194, 194);
+}
+
+#particle-js{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
 }

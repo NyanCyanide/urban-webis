@@ -1,12 +1,11 @@
 import React from "react";
 
-function Home() {
+function Card(props) {
   return (
-    <>
-       <div className="border-yellow-500 rounded-2xl backdrop-blur-xl border-2 mx-2 mt-5 md:mt-16 md:mx-28">
+    <div className="border-yellow-500 rounded-2xl border-2  bg-white mx-2 mt-5 md:mt-16 md:mx-28">
       <div className="flex flex-row md:mx-12 mx-5 mt-3 md:mt-10 items-center">
-        <div className="text-white font-roboto text-5xl font-semibold md:text-6xl tracking-tighter md:tracking-wider ">
-          Home
+        <div className="text-black font-roboto text-5xl font-semibold md:text-6xl tracking-tighter md:tracking-wider ">
+          {props.name}
         </div>
         <div>
           <svg
@@ -19,7 +18,7 @@ function Home() {
           </svg>
         </div>
       </div>
-      <div className="text-white mx-5 mt-2 text-justify md:mx-12">
+      <div className="mx-5 mt-2 text-justify md:mx-12">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
         maiores ipsum voluptatum, nam et cumque perspiciatis ipsa placeat quo
         accusamus deleniti inventore! Debitis autem, mollitia libero sit et
@@ -77,8 +76,7 @@ function Home() {
         architecto eius repudiandae quam minima fugiat doloremque.
       </div>
     </div>
-    </>
   );
 }
 
-export default Home;
+export default Card;
