@@ -89,9 +89,9 @@ function Entry() {
               <span className="uppercase font-semibold">Location:</span> India
             </div>
           </div>
-          <div className="basis-1/4 ">
+          <div className="basis-1/4 overflow-hidden ">
             <img
-              className="grayscale w-2/3 bg-white rounded-3xl"
+              className="grayscale w-2/3 bg-white rounded-3xl hover:rounded-none duration-700 scale-100 hover:scale-105"
               src={img}
               alt="my image"
             />
