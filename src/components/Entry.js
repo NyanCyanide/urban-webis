@@ -45,7 +45,7 @@ function Entry() {
         </div>
         <div className="font-mono text-white text-center mx-6 mt-20 ">
           <p className="text-4xl font-bold">Hello World!👋</p>
-          <p className="text-justify mt-5 tracking-wider text-lg">
+          <p className="text-center mt-5 tracking-wider text-lg">
             Welcome to my webiste. I am an undergraduate student pursuing
             Computer Science Engineering. Passionate about Software, Computers,
             and technology.

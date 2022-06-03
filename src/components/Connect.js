@@ -8,10 +8,10 @@ function Connect() {
   return (
     <div
       id="id4"
-      className="border-white rounded-2xl border-2 backdrop-blur-none bg-white mx-3 mt-5 mb-10 md:mt-16 md:mx-28"
+      className="border-white rounded-2xl border-2 backdrop-blur-3xl mx-3 mt-5 mb-10 md:mt-16 md:mx-28"
     >
       <div className="flex flex-row md:mx-12 mx-5 mt-8 md:mt-10 items-center">
-        <div className="text-black font-roboto text-5xl font-semibold md:text-6xl tracking-tighter md:tracking-wider ">
+        <div className="text-white font-roboto text-5xl font-semibold md:text-6xl tracking-tighter md:tracking-wider ">
           Connect
         </div>
         <div>
@@ -31,7 +31,7 @@ function Connect() {
           </svg>
         </div>
       </div>
-      <hr className="my-2 border-black mx-6 md:mx-14"></hr>
+      <hr className="my-2 border-white mx-6 md:mx-14"></hr>
       <div className="md:flex md:flex-row mx-2 mt-5 md:mt-0 mb-8 md:mx-12 md:overflow-x-auto  ">
         <a
           className="md:basis-1/4"
@@ -58,7 +58,7 @@ function Connect() {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="border-2 border-white flex flex-row-reverse md:flex-col md:rounded-xl rounded-full m-2 justify-center items-center duration-500 bg-black hover:bg-zinc-800 text-ellipsis overflow-hidden">
+          <div className="border-2 border-slate-600 flex flex-row-reverse md:flex-col md:rounded-xl rounded-full m-2 justify-center items-center duration-500 bg-black hover:bg-zinc-800 text-ellipsis overflow-hidden">
             <img
               className="h-12 w-12 my-3 md:h-16 md:w-16 mr-2 md:mx-auto border-white border-2 rounded-full"
               src={github}

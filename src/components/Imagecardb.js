@@ -2,7 +2,7 @@ import React from "react";
 
 function Imagecardb(props) {
   return (
-    <div className="flex-col drop-shadow-xl overflow-hidden rounded-2xl bg-blue-300 border-2 border-blue-600 select-none hover:bg-blue-400 duration-700">
+    <div className="flex-col md:drop-shadow-xl overflow-hidden rounded-2xl bg-blue-300 border-2 border-blue-600 select-none hover:bg-blue-400 duration-700">
       <div className="overflow-hidden">
         <img
           loading="lazy"
@@ -17,7 +17,7 @@ function Imagecardb(props) {
         <a href={props.link} target="_blank" rel="noreferrer">
           <button className="bg-blue-800 border-2 border-blue-500 hover:bg-blue-700 hover:border-black duration-700  text-white rounded-full px-3 md:px-4 py-0.5 justify-center font-roboto">
             <div className="flex flex-row items-center">
-              View
+              {props.action}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5 ml-1 hover:animate-pulse"
