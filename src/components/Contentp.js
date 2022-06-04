@@ -8,7 +8,7 @@ import project4 from "../images/project4.png";
 
 function Contentp() {
   return (
-    <div className="mx-5 md:mx-14 mt-5 mb-6 md:mb-10 pt-2 bg-yellow-100 rounded-2xl">
+    <div className="mx-5 md:mx-14 mt-5 mb-6 md:mb-10 pt-2 bg-yellow-100 border-2 border-yellow-600 rounded-2xl">
       <div className='mx-2 md:mx-5 mt-2 '>
         <p className="font-roboto tracking-tight font-bold text-2xl underline underline-offset-4">
           Projects

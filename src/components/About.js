@@ -1,5 +1,5 @@
 import React from "react";
-import pro from "../images/pro.png";
+import Aboutme from "./Aboutme";
 
 function About() {
   return (
@@ -27,14 +27,7 @@ function About() {
         </div>
       </div>
       <hr className="my-2 border-white mx-6 md:mx-14"></hr>
-      <div className=" text-white">
-        <div>
-          <img className="mx-auto p-5" src={pro} alt="" />
-        </div>
-        <div className="p-5">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum officia similique ipsa accusamus et, at exercitationem aspernatur eveniet eligendi veritatis ea rem praesentium tenetur expedita illo a repudiandae tempora reiciendis ducimus laudantium quibusdam, magnam ipsam animi. Nihil ex saepe nobis possimus consectetur ratione deserunt beatae voluptatum vero nam laudantium quae sequi illo molestias enim aliquam corporis ullam, reprehenderit voluptatem sint doloribus aut. Nesciunt, quis, voluptate consequatur voluptatibus animi voluptatem debitis odit facere veritatis aliquam vero distinctio incidunt adipisci, ab doloremque enim ratione tenetur. Nisi, quo. Voluptatem eaque velit blanditiis nam ipsa vel quaerat dolor unde, labore similique pariatur dolores consequatur inventore veritatis illo! Reiciendis vitae impedit molestias nulla ea quas, quos cumque eligendi qui consectetur ducimus sequi quae facere recusandae? Illum sed, unde velit ex debitis totam. Fugiat tempora rem nobis. Similique itaque neque sed fugiat temporibus? Eos, blanditiis incidunt illum dicta facilis illo, eligendi explicabo neque nemo iste mollitia obcaecati! Cumque, omnis accusantium, a architecto, maxime nam quod officia dolor ducimus odio explicabo voluptatem nostrum voluptatibus? Modi veniam aperiam illo corrupti voluptate voluptas molestias quas tempore, iusto suscipit repellat deserunt, ullam eveniet sint magnam iure? Dolor saepe cupiditate nobis officia dicta necessitatibus dignissimos beatae iure, iusto architecto possimus voluptatum.
-        </div>
-      </div>
+      <Aboutme />
     </div>
   );
 }
