@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/urban-webis/static/css/main.d4a6f0bb.css",
+    "main.js": "/urban-webis/static/js/main.00f1e696.js",
+    "static/js/937.bc6bef2d.chunk.js": "/urban-webis/static/js/937.bc6bef2d.chunk.js",
+    "static/media/project1.png": "/urban-webis/static/media/project1.1f8be3596ea6aa0948cc.png",
+    "static/media/project4.png": "/urban-webis/static/media/project4.85ef2f3fbf9f61dcfcd8.png",
+    "static/media/project3.png": "/urban-webis/static/media/project3.14193819fb58df7d825f.png",
+    "static/media/blenderart2.png": "/urban-webis/static/media/blenderart2.f9bf2e436b78e53afa57.png",
+    "static/media/blenderart5.png": "/urban-webis/static/media/blenderart5.80b82ce11e1c826efdc1.png",
+    "static/media/blenderart3.png": "/urban-webis/static/media/blenderart3.b17853bff49f21d39102.png",
+    "static/media/blenderart4.png": "/urban-webis/static/media/blenderart4.121aaf66f855d4105504.png",
+    "static/media/image1.png": "/urban-webis/static/media/image1.5080e245fb492bafa3e6.png",
+    "static/media/blenderart1.png": "/urban-webis/static/media/blenderart1.512c594d3a967ef552a3.png",
+    "static/media/project2.png": "/urban-webis/static/media/project2.aaf2755e39613cd96907.png",
+    "static/media/my-profile.PNG": "/urban-webis/static/media/my-profile.dcd7c473c97dcbb95bf8.PNG",
+    "static/media/pro.png": "/urban-webis/static/media/pro.14fcfeea786b84558e11.png",
+    "static/media/instagram.png": "/urban-webis/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/github.png": "/urban-webis/static/media/github.6029e8d7fa603d915d75.png",
+    "static/media/linkedin.png": "/urban-webis/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "index.html": "/urban-webis/index.html",
+    "main.d4a6f0bb.css.map": "/urban-webis/static/css/main.d4a6f0bb.css.map",
+    "main.00f1e696.js.map": "/urban-webis/static/js/main.00f1e696.js.map",
+    "937.bc6bef2d.chunk.js.map": "/urban-webis/static/js/937.bc6bef2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4a6f0bb.css",
+    "static/js/main.00f1e696.js"
+  ]
+}
